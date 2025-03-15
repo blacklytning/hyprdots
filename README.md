@@ -2,7 +2,7 @@ TODO: automount for removable devices
 
 - Install packages
 ```
-pacman -S kitty hyprland uwsm ttf-jetbrains-mono-nerd wget yazi brightnessctl waybar libreoffice-fresh impala openssh swaync mpv bat ttf-liberation ttf-nunito ttf-roboto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-indic-otf nwg-look fish tealdeer xdg-desktop-portal-hyprland
+pacman -S kitty hyprland uwsm ttf-jetbrains-mono-nerd wget yazi brightnessctl waybar libreoffice-fresh impala openssh dunst mpv bat ttf-liberation ttf-nunito ttf-roboto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-indic-otf nwg-look fish tealdeer xdg-desktop-portal-hyprland
 ```
 
 - Install yay (https://github.com/Jguer/yay)
