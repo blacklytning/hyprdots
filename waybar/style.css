@@ -1,5 +1,5 @@
-@import "mocha.css"; 
-
+@import "carbonfox.css"; 
+@import "mocha.css";
 * {
     font-family: "Nunito";
     font-size: 14px;
@@ -30,8 +30,8 @@ button {
 
 button:hover {
     background: inherit;
-    color: @mauve;
-    border-top: 2px solid @mauve;
+    color: @magenta;
+    border-top: 2px solid @magenta;
 }
 
 #workspaces button {
@@ -40,14 +40,14 @@ button:hover {
 
 #workspaces button.focused {
     background-color: rgba(0, 0, 0, 0.3);
-    color: @rosewater;
-    border-top: 2px solid @rosewater;
+    color: @bright-magenta;
+    border-top: 2px solid @bright-magenta;
 }
 
 #workspaces button.active {
     background-color: rgba(0, 0, 0, 0.3);
-    color: @mauve;
-    border-top: 2px solid @mauve;
+    color: @magenta;
+    border-top: 2px solid @magenta;
 }
 
 #workspaces button.urgent {
@@ -76,13 +76,13 @@ button:hover {
 }
 
 #clock {
-    color: @maroon;
-    border-bottom: 2px solid @maroon;
+    color: @bright-red;
+    border-bottom: 2px solid @bright-red;
 }
 
 #clock.date {
-    color: @mauve;
-    border-bottom: 2px solid @mauve;
+    color: @red;
+    border-bottom: 2px solid @red;
 }
 
 #pulseaudio {
@@ -91,8 +91,8 @@ button:hover {
 }
 
 #backlight {
-    color: @teal;
-    border-bottom: 2px solid @teal;
+    color: @alternative-blue;
+    border-bottom: 2px solid @alternative-blue;
 }
 
 #network {
