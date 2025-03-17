@@ -2,7 +2,7 @@ TODO: automount for removable devices
 
 - Install packages
 ```
-pacman -S kitty hyprland uwsm ttf-jetbrains-mono-nerd wget yazi brightnessctl waybar libreoffice-fresh impala openssh dunst mpv bat ttf-liberation ttf-nunito ttf-roboto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-indic-otf nwg-look fish tealdeer xdg-desktop-portal-hyprland
+pacman -S kitty hyprland uwsm ttf-jetbrains-mono-nerd wget yazi brightnessctl waybar libreoffice-fresh impala openssh dunst mpv bat ttf-liberation ttf-nunito ttf-roboto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-indic-otf nwg-look fish tealdeer xdg-desktop-portal-hyprland 7zip
 ```
 
 - Install yay (https://github.com/Jguer/yay)
@@ -49,6 +49,11 @@ sudo su - postgres
 createuser --interactive
 exit
 sudo systemctl restart postgresql
+```
+
+- Install pgweb (postgres GUI)
+```
+yay -S pgweb-bin
 ```
 - Set neovim as default Git editor
 ```
