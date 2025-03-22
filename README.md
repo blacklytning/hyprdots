@@ -12,7 +12,7 @@ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/ya
 ```
 - Install aur packages
 ```
-yay -S zen-browser-bin tofi swayosd hyprshot
+yay -S zen-browser-bin tofi swayosd hyprshot bashmount
 ```
 - Configure tofi entries
 ```
