@@ -1,5 +1,3 @@
-TODO: automount for removable devices
-
 - Install packages
 ```
 pacman -S kitty hyprland uwsm ttf-jetbrains-mono-nerd wget yazi brightnessctl waybar libreoffice-fresh impala openssh dunst mpv bat ttf-liberation ttf-nunito ttf-roboto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-indic-otf nwg-look fish tealdeer xdg-desktop-portal-hyprland 7zip
@@ -67,4 +65,7 @@ sudo systemctl enable --now swayosd-libinput-backend.service
 ```
 tldr --update
 ```
-
+- Deactivate conda base environment on startup
+```
+conda config --set auto_activate_base false
+```
