@@ -1,6 +1,6 @@
 - Install packages
 ```
-pacman -S kitty hyprland uwsm ttf-jetbrains-mono-nerd wget yazi brightnessctl waybar libreoffice-fresh impala openssh dunst mpv bat ttf-liberation ttf-nunito ttf-roboto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-indic-otf nwg-look fish tealdeer xdg-desktop-portal-hyprland 7zip
+pacman -S kitty hyprland uwsm ttf-jetbrains-mono-nerd wget yazi brightnessctl waybar libreoffice-fresh impala bluetui openssh dunst mpv bat ttf-liberation ttf-nunito ttf-roboto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-indic-otf nwg-look fish tealdeer xdg-desktop-portal-hyprland 7zip
 ```
 
 - Install yay (https://github.com/Jguer/yay)
@@ -60,6 +60,10 @@ git config --global core.editor "nvim"
 - SwayOSD LibInput Backend
 ```
 sudo systemctl enable --now swayosd-libinput-backend.service
+```
+- Bluetooth service (https://wiki.archlinux.org/title/Bluetooth)
+```
+sudo systemctl enable --now bluetooth.service
 ```
 - Update tealdeer 
 ```
