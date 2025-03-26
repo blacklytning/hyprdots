@@ -1,3 +1,23 @@
+# i use arch btw
+
+![desktop](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_desktop.jpeg)
+
+![fastfetch](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_fastfetch.jpeg)
+
+![hecker](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_hecker.jpeg)
+
+![htop](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_htop.jpeg)
+
+![impala](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_impala.jpeg)
+
+![tofi](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_tofi.jpeg)
+
+![yazi](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_yazi.jpeg)
+
+![neovim](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_neovim.jpeg)
+
+![zen](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_zen.jpeg)
+
 - Install packages
 ```
 pacman -S kitty hyprland uwsm ttf-jetbrains-mono-nerd wget yazi brightnessctl waybar libreoffice-fresh impala bluetui openssh dunst mpv bat ttf-liberation ttf-nunito ttf-roboto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-indic-otf nwg-look fish tealdeer xdg-desktop-portal-hyprland 7zip
