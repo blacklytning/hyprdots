@@ -2,11 +2,23 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["network", "pulseaudio","backlight", "battery", "clock"],
+  "modules-right": ["network","network#speed", "pulseaudio","backlight", "battery", "clock"],
   "clock": {
     "format": "<span foreground='#f16da6'>   </span>{:%a %d %H:%M:%S}",
     "interval": 1,
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  "network#speed": {
+  "interval": 2,
+  "format": "{ifname}",
+  "format-wifi": "<span foreground='#c8a5ff'>   {bandwidthDownBytes}     {bandwidthUpBytes} </span>",
+  "format-ethernet": "<span foreground='#c8a5ff'>   {bandwidthDownBytes}    {bandwidthUpBytes} </span>",
+  "format-disconnected": "󰌙",
+  "tooltip-format": "{ipaddr}",
+  "format-linked": "󰈁 {ifname} (No IP)",
+  "tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+  "tooltip-format-ethernet": "{ifname} 󰌘",
+  "tooltip-format-disconnected": "󰌙 Disconnected"
   },
   "battery": {
     "states": {

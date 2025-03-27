@@ -1,4 +1,4 @@
-@import "carbonfox.css"; 
+@import "carbonfox.css";
 
 * {
     font-family: "Nunito";
@@ -98,6 +98,11 @@ button:hover {
 #network {
     color: @yellow;
     border-bottom: 2px solid @yellow;
+}
+
+#network.speed {
+    color: @bright-magenta;
+    border-bottom: 2px solid @bright-magenta;
 }
 
 #idle_inhibitor {
