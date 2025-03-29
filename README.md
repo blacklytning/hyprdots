@@ -93,3 +93,18 @@ tldr --update
 ```
 conda config --set auto_activate_base false
 ```
+
+- Install HP printer driver and add printer
+
+```
+pacman -S cups hplip
+```
+```
+systemctl start cups
+```
+Go to below site and go to Administration and add printer
+```
+http://localhost:631
+```
+
+```
