@@ -25,8 +25,7 @@ pacman -S kitty hyprland uwsm ttf-jetbrains-mono-nerd wget yazi brightnessctl wa
 
 - Install yay (https://github.com/Jguer/yay)
 ```
-sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 ```
 - Install aur packages
 ```
