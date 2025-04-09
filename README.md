@@ -124,3 +124,6 @@ Fix:
 ```
 sudo systemctl enable fstrim.timer
 ```
+- Enable colours and more parallel downloads in pacman (/etc/pacman.conf)
+
+Uncomment Color and change ParallelDownloads manually
