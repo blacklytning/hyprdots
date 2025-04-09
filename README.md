@@ -120,3 +120,7 @@ Fix:
 ```
   sudo pacman -S linux-lts-headers linux-zen-headers
 ```
+- Enable TRIM for ssd
+```
+sudo systemctl enable fstrim.timer
+```
