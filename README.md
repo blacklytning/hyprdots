@@ -38,17 +38,12 @@ yay -S zen-browser-bin tofi swayosd hyprshot bashmount
 Move desktop entries to different location like .backup
 
 - Install miniconda
+
+https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation
+
+- Deactivate conda base environment on startup
 ```
-mkdir -p ~/miniconda3
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
-bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-rm ~/miniconda3/miniconda.sh
-```
-```
-source ~/miniconda3/bin/activate
-```
-```
-conda init --all
+conda config --set auto_activate_base false
 ```
 - Set waybar to run as systemd service
 ```
@@ -88,11 +83,6 @@ sudo systemctl enable --now bluetooth.service
 ```
 tldr --update
 ```
-- Deactivate conda base environment on startup
-```
-conda config --set auto_activate_base false
-```
-
 - Install HP printer driver and add printer
 
 ```
