@@ -20,7 +20,7 @@
 
 - Install packages
 ```
-pacman -S kitty hyprland uwsm ttf-jetbrains-mono-nerd wget yazi brightnessctl waybar libreoffice-fresh impala bluetui openssh dunst mpv bat ttf-liberation ttf-nunito ttf-roboto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-indic-otf nwg-look fish tealdeer xdg-desktop-portal-hyprland 7zip aria2
+pacman -S kitty hyprland uwsm ttf-jetbrains-mono-nerd wget yazi brightnessctl waybar libreoffice-fresh impala bluetui openssh dunst mpv bat ttf-liberation ttf-nunito ttf-roboto adobe-source-han-sans-jp-fonts adobe-source-han-sans-kr-fonts ttf-indic-otf nwg-look fish tealdeer xdg-desktop-portal-hyprland 7zip aria2 neovim
 ```
 
 - Install yay (https://github.com/Jguer/yay)
@@ -51,7 +51,7 @@ systemctl --user enable --now waybar.service
 ```
 - Install PostgreSQL
 ```
-pacman -s postgresql
+pacman -S postgresql
 sudo su - postgres
 initdb -D /var/lib/postgres/data
 exit
