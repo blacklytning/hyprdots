@@ -71,6 +71,10 @@ yay -S pgweb-bin
 ```
 git config --global core.editor "nvim"
 ```
+- Set up SSH keys for Git
+
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
+
 - SwayOSD LibInput Backend
 ```
 sudo systemctl enable --now swayosd-libinput-backend.service
