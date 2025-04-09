@@ -75,6 +75,13 @@ git config --global core.editor "nvim"
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
 
+- Signing commits 
+
+https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
+
+```
+git config --global commit.gpgsign true
+```
 - SwayOSD LibInput Backend
 ```
 sudo systemctl enable --now swayosd-libinput-backend.service
