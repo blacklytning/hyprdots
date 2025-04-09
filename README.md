@@ -106,4 +106,17 @@ Go to below site and go to Administration and add printer
 ```
 http://localhost:631
 ```
+- Install kernel headers to compile kernel modules for Nvidia if needed
 
+Error:
+```
+ ==> ERROR: module not found: `nvidia'
+ ==> ERROR: module not found: `nvidia_modeset'
+ ==> ERROR: module not found: `nvidia_uvm'
+ ==> ERROR: module not found: `nvidia_drm'
+
+```
+Fix:
+```
+  sudo pacman -S linux-lts-headers linux-zen-headers
+```
