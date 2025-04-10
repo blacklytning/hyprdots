@@ -100,7 +100,10 @@ tldr --update
 pacman -S cups hplip
 ```
 ```
-systemctl start cups
+yay -S hplip-plugin
+```
+```
+sudo systemctl enable --now cups
 ```
 Go to below site and go to Administration and add printer
 ```
