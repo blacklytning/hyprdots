@@ -101,6 +101,7 @@ button:hover {
 }
 
 #network.speed {
+    margin-left: 16px;
     color: @bright-magenta;
     border-bottom: 2px solid @bright-magenta;
 }
