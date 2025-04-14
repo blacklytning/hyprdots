@@ -32,3 +32,4 @@ htop
 exfat-utils
 udisks2
 hyprpaper
+hyprlock
