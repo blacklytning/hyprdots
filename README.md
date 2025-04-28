@@ -130,3 +130,8 @@ sudo systemctl enable fstrim.timer
 - Enable colours and more parallel downloads in pacman (/etc/pacman.conf)
 
 Uncomment Color and change ParallelDownloads manually
+
+- Start power-profiles-daemon service
+```
+sudo systemctl enable --now power-profiles-daemon.service
+```

@@ -34,3 +34,4 @@ udisks2
 hyprpaper
 hyprlock
 wf-recorder
+power-profiles-daemon
