@@ -33,3 +33,4 @@ exfat-utils
 udisks2
 hyprpaper
 hyprlock
+wf-recorder
