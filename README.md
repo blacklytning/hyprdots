@@ -142,3 +142,15 @@ sudo systemctl enable --now power-profiles-daemon.service
 ```
 sudo systemctl disable systemd-networkd-wait-online.service
 ```
+- Setup yazi as file chooser in zen-browser
+```
+yay -S xdg-desktop-portal-termfilechooser-hunkyburrito-git
+```
+In zen-browser go to ```about:config``` 
+
+Set ```widget.use-xdg-desktop-portal.file-picker``` to ```1```
+
+Then 
+```
+systemctl --user restart xdg-desktop-portal.service
+```
