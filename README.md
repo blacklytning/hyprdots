@@ -135,3 +135,10 @@ Uncomment Color and change ParallelDownloads manually
 ```
 sudo systemctl enable --now power-profiles-daemon.service
 ```
+
+- Skip waiting for network on boot
+
+> graphical.target is queued for start waiting for 60s
+```
+sudo systemctl disable systemd-networkd-wait-online.service
+```
