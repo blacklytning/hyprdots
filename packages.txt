@@ -35,3 +35,4 @@ hyprpaper
 hyprlock
 wf-recorder
 power-profiles-daemon
+ripgrep
