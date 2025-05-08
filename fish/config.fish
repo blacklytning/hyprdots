@@ -14,3 +14,5 @@ end
 
 set -g fish_greeting
 
+# Set the prompt to show the full names of directories
+set -gx fish_prompt_pwd_dir_length 0
