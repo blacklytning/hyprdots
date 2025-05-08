@@ -36,3 +36,6 @@ hyprlock
 wf-recorder
 power-profiles-daemon
 ripgrep
+nvidia-open-dkms
+nvidia-utils
+egl-wayland
