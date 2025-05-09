@@ -13,7 +13,7 @@
   "format": "{ifname}",
   "format-wifi": "<span foreground='#c8a5ff'>   {bandwidthDownBytes} </span>",
   "format-ethernet": "<span foreground='#c8a5ff'>   {bandwidthDownBytes} </span>",
-  "format-disconnected": "󰌙",
+  // "format-disconnected": "󰌙",
   "tooltip-format": "{ipaddr}",
   "format-linked": "󰈁 {ifname} (No IP)",
   "tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
