@@ -6,7 +6,7 @@
   "clock": {
     "format": "<span foreground='#f16da6'>   </span>{:%a %d %H:%M:%S}",
     "interval": 1,
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    "tooltip-format": "<big>  Calender</big>\n<tt><small>{calendar}</small></tt>"
   },
   "network#speed": {
   "interval": 4,
