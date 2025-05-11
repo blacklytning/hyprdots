@@ -42,7 +42,7 @@
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "<span size='13000' foreground='#f5e0dc'>  </span>Disconnected",
     "tooltip-format-wifi": "Signal Strength: {signalStrength}%",
-    "on-click": "kitty -e impala",
+    "on-click": "kitty -e impala"
   },
   "pulseaudio": {
       "format": "{icon}  {volume}%",
@@ -50,7 +50,8 @@
       "format-icons": {
           "default": ["", "", " "]
       },
-      "on-click": "pavucontrol"
+      "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+      "on-click-middle": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 1.75"
   },
   "backlight": {
       // "device": "acpi_video1",
