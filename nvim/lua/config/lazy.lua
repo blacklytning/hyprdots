@@ -26,6 +26,7 @@ vim.opt.tabstop = 4
 vim.opt.expandtab = true
 vim.opt.softtabstop = 4
 vim.opt.ignorecase = true
+vim.opt.shiftwidth = 4
 vim.o.wrap = false
 
 require("lazy").setup({
