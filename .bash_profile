@@ -11,3 +11,7 @@ fi
 
 # Set default editor as Neovim
 export EDITOR=nvim
+
+# Remove default CTRL+D behavior and set to exit fish
+set -o ignoreeof
+
