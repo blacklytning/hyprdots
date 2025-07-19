@@ -43,3 +43,4 @@ linux-lts-headers
 linux-zen-headers
 fzf
 termusic
+hyprpicker
