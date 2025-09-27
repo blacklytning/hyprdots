@@ -9,7 +9,7 @@
     "tooltip-format": "<big>  Calender</big>\n<tt><small>{calendar}</small></tt>"
   },
   "network#speed": {
-  "interval": 4,
+  "interval": 2,
   "format": "{ifname}",
   "format-wifi": "<span foreground='#c8a5ff'>   {bandwidthDownBytes} </span>",
   "format-ethernet": "<span foreground='#c8a5ff'>   {bandwidthDownBytes} </span>",
@@ -34,7 +34,7 @@
     "format-full": "<span size='13000' foreground='#46c880'> </span>{capacity}%",
     "format-icons": ["", "", "", "", ""],
     "tooltip-format": "{time}",
-    "interval": 3
+    "interval": 1
   },
   "network": {
     "format-wifi": "<span size='13000' foreground='#f0d399'>  </span>{essid}",
