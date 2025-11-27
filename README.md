@@ -154,3 +154,8 @@ Then
 ```
 systemctl --user restart xdg-desktop-portal.service
 ```
+
+- Rotate display (0 = default, 1 = 90 degree anti-clockwise, 2 = 180 degree, 3 = 270 degree, 4 = flip horizontally, 5 = flip vertically) 
+```
+hyprctl keyword monitor ,preferred,auto,1.25,transform,0
+```
