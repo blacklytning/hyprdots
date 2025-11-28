@@ -159,3 +159,10 @@ systemctl --user restart xdg-desktop-portal.service
 ```
 hyprctl keyword monitor ,preferred,auto,1.25,transform,0
 ```
+
+- Selective file download using aria2c
+```
+aria2c --show-files zeenat.torrent
+
+aria2c --select-file=1-5,8 zeenat.torrent
+```
