@@ -42,5 +42,5 @@ egl-wayland
 linux-lts-headers
 linux-zen-headers
 fzf
-termusic
+kew
 hyprpicker
