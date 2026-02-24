@@ -26,8 +26,10 @@ echo "$WALLPAPER" > "$LAST_USED"
 
 # Generate new hyprpaper.conf
 cat > "$HOME/.config/hypr/hyprpaper.conf" <<EOF
-preload = $WALLPAPER
-wallpaper = ,$WALLPAPER
+wallpaper {
+    monitor =
+    path = $WALLPAPER
+}
 EOF
 
 # Start hyprpaper
