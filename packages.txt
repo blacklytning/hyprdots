@@ -44,3 +44,4 @@ linux-zen-headers
 fzf
 kew
 hyprpicker
+resvg
