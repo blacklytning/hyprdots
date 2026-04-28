@@ -21,12 +21,8 @@ WALLPAPER=$(find "$WALLPAPER_DIR" -type f \
 
 echo "$WALLPAPER" > "$LAST_USED"
 
-cat > "$CONFIG" <<EOF
-wallpaper {
-    monitor = $MONITOR
-    path = $WALLPAPER
-}
-EOF
+ln -sf "$WALLPAPER" "$HOME/.cache/current_wall.jpg"
 
-pkill hyprpaper 2>/dev/null
-hyprpaper &
+hyprctl hyprpaper unload all
+hyprctl hyprpaper preload "$HOME/.cache/current_wall.jpg"
+hyprctl hyprpaper wallpaper "eDP-1,$HOME/.cache/current_wall.jpg"
