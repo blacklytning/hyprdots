@@ -42,6 +42,5 @@ egl-wayland
 linux-lts-headers
 linux-zen-headers
 fzf
-kew
 hyprpicker
 resvg
