@@ -55,6 +55,7 @@
   },
   "backlight": {
       // "device": "acpi_video1",
-      "format": "󰃟   {percent}%"
+      "format": "󰃟   {percent}%",
+      "on-click-middle": "brightnessctl s 100%"
   }
 }
