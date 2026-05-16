@@ -2,6 +2,9 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces","network#speed"],
   "modules-center": ["hyprland/window"],
+  "hyprland/window": {
+      "max-length": 60
+  },
   "modules-right": ["network","pulseaudio","backlight", "battery", "clock"],
   "clock": {
     "format": "<span foreground='#f16da6'>   </span>{:%a %d %H:%M:%S}",
@@ -11,8 +14,8 @@
   "network#speed": {
   "interval": 2,
   "format": "{ifname}",
-  "format-wifi": "<span foreground='#c8a5ff'>   {bandwidthDownBytes} </span>",
-  "format-ethernet": "<span foreground='#c8a5ff'>   {bandwidthDownBytes} </span>",
+  "format-wifi": "<span foreground='#c8a5ff'>   {bandwidthDownBytes}     {bandwidthUpBytes} </span>",
+  "format-ethernet": "<span foreground='#c8a5ff'>   {bandwidthDownBytes}     {bandwidthUpBytes} </span>",
   // "format-disconnected": "󰌙",
   "tooltip-format": "{ipaddr}",
   "format-linked": "󰈁 {ifname} (No IP)",
