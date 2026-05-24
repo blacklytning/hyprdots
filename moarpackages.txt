@@ -1,0 +1,27 @@
+# For audio inputs/outputs and volume control
+pavucontrol
+
+# For setting wallpaper
+waypaper
+
+# Vibe coding tools
+visual-studio-code-bin
+windsurf
+openclaw
+opencode
+
+# Communication tools 
+vesktop
+telegram-desktop
+
+# Gaming
+steam
+
+# Browse SQLite DB
+sqlitebrowser
+
+# See which files/folders are taking up space
+ncdu
+
+# Watch anime
+ani-cli
