@@ -9,6 +9,8 @@ visual-studio-code-bin
 windsurf
 openclaw
 opencode
+antigravity-bin
+cursor-bin
 
 # Communication tools 
 vesktop
@@ -16,6 +18,7 @@ telegram-desktop
 
 # Gaming
 steam
+heroic-games-launcher-bin
 
 # Browse SQLite DB
 sqlitebrowser
@@ -25,3 +28,14 @@ ncdu
 
 # Watch anime
 ani-cli
+
+# Shipping apps
+docker
+
+# Use phone camera as webcam
+droidcam
+
+# Alternative chromium based browser
+helium-browser-bin
+
+
