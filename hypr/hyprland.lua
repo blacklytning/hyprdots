@@ -111,12 +111,12 @@ hl.device({
 local mainMod = "SUPER"
 
 hl.bind(mainMod .. " + return", hl.dsp.exec_cmd(terminal))
-local closeWindowBind = hl.bind(mainMod .. " + C", hl.dsp.window.close())
+hl.bind(mainMod .. " + C", hl.dsp.window.close())
 hl.bind(mainMod .. " + SHIFT + M",
     hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd([[kitty -e fish -c "yazi; fish"]]))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + space", hl.dsp.exec_cmd("tofi-drun | xargs hyprctl dispatch exec --"))
+hl.bind(mainMod .. " + space", hl.dsp.exec_cmd("tofi-drun --drun-launch=true"))
 hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -m region -o ~/screenshots -z"))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("zen-browser"))
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("~/.config/scripts/random-wall.sh"))
