@@ -120,6 +120,7 @@ hl.bind(mainMod .. " + space", hl.dsp.exec_cmd("tofi-drun | xargs hyprctl dispat
 hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -m region -o ~/screenshots -z"))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("zen-browser"))
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("~/.config/scripts/random-wall.sh"))
+hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
 hl.bind("XF86Launch2", hl.dsp.exec_cmd("hyprlock"))
 
 for i = 1, 10 do
