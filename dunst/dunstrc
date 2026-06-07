@@ -2,7 +2,7 @@
     offset = (10, 20)
     frame_width = 2
     separator_color = auto
-    font = Sans 11
+    font = Nunito 11
     enable_recursive_icon_lookup = true
     icon_theme="breeze"
     corner_radius = 8
