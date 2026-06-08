@@ -166,3 +166,11 @@ aria2c --show-files zeenat.torrent
 
 aria2c --select-file=1-5,8 zeenat.torrent
 ```
+
+- Do not show systemd-menu on start
+
+Add ```timeout 0``` to ```/boot/loader/loader.conf```
+
+- Disable logs on boot splash
+
+Add ```quiet``` as kernel parameter to particular kernel in ```/boot/loader/entries/linux-zen.conf```
