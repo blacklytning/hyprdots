@@ -6,12 +6,14 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 if uwsm check may-start; then
-    exec uwsm start hyprland.desktop
+    clear && exec uwsm start hyprland.desktop > /dev/null 2>&1
 fi
 
 # Set default editor as Neovim
-export EDITOR=nvim
+# export EDITOR=nvim
 
-# Remove default CTRL+D behavior and set to exit fish
+# Remove default CTRL+D behavior
 set -o ignoreeof
 
+
+. "$HOME/.local/share/../bin/env"
