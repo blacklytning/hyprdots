@@ -34,7 +34,6 @@ udisks2
 hyprpaper
 hyprlock
 wf-recorder
-power-profiles-daemon
 ripgrep
 nvidia-open-dkms
 nvidia-utils
@@ -45,3 +44,5 @@ fzf
 hyprpicker
 resvg
 zed
+swayosd
+hyprshot

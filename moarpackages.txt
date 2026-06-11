@@ -20,8 +20,9 @@ extra/telegram-desktop
 multilib/steam
 chaotic-aur/heroic-games-launcher-bin
 
-# Browse SQLite DB
+# Browse databases
 aur/sqlite-web
+aur/pgweb-bin
 
 # See which files/folders are taking up space
 extra/ncdu
@@ -38,4 +39,17 @@ chaotic-aur/droidcam
 # Alternative chromium based browser
 chaotic-aur/helium-browser-bin
 
+# App launcher
+aur/tofi
 
+# Preferred browser
+chaotic-aur/zen-browser-bin
+
+# WhatsApp emojis
+aur/ttf-whatsapp-emoji
+
+# Mount removable media
+aur/bashmount
+
+# Virtual environment
+aur/miniconda3

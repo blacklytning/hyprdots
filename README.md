@@ -28,18 +28,12 @@ sudo pacman -S --needed - < packages.txt
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 ```
 - Install aur packages
-```
-yay -S zen-browser-bin tofi swayosd hyprshot bashmount tdf ttf-whatsapp-emoji
-```
+
 - Configure tofi entries
 ```
 /usr/share/applications
 ```
 Move desktop entries to different location like .backup
-
-- Install miniconda
-
-https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation
 
 - Deactivate conda base environment on startup
 ```
@@ -63,10 +57,6 @@ exit
 sudo systemctl restart postgresql
 ```
 
-- Install pgweb (postgres GUI)
-```
-yay -S pgweb-bin
-```
 - Set neovim as default Git editor
 ```
 git config --global core.editor "nvim"
@@ -130,11 +120,6 @@ sudo systemctl enable fstrim.timer
 - Enable colours and more parallel downloads in pacman (/etc/pacman.conf)
 
 Uncomment Color and change ParallelDownloads manually
-
-- Start power-profiles-daemon service
-```
-sudo systemctl enable --now power-profiles-daemon.service
-```
 
 - Skip waiting for network on boot
 
