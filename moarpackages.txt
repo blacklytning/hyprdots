@@ -56,3 +56,6 @@ aur/miniconda3
 
 # System monitoring
 extra/btop
+
+# Fake process
+genact

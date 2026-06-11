@@ -16,9 +16,8 @@ bat
 ttf-liberation
 ttf-nunito
 ttf-roboto
-adobe-source-han-sans-jp-fonts
-adobe-source-han-sans-kr-fonts
-ttf-indic-otf
+noto-fonts
+noto-fonts-cjk
 nwg-look
 fish
 tealdeer
