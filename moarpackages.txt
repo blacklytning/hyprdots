@@ -1,41 +1,41 @@
 # For audio inputs/outputs and volume control
-pavucontrol
+extra/pavucontrol
 
 # For setting wallpaper
-waypaper
+aur/waypaper
 
 # Vibe coding tools
-visual-studio-code-bin
-windsurf
-openclaw
-opencode
+chaotic-aur/visual-studio-code-bin
+aur/windsurf
+aur/openclaw
+extra/opencode
 antigravity-bin
-cursor-bin
+aur/cursor-bin
 
 # Communication tools 
-vesktop
-telegram-desktop
+chaotic-aur/vesktop
+extra/telegram-desktop
 
 # Gaming
-steam
-heroic-games-launcher-bin
+multilib/steam
+chaotic-aur/heroic-games-launcher-bin
 
 # Browse SQLite DB
-sqlitebrowser
+aur/sqlite-web
 
 # See which files/folders are taking up space
-ncdu
+extra/ncdu
 
 # Watch anime
-ani-cli
+chaotic-aur/ani-cli
 
 # Shipping apps
-docker
+extra/docker
 
 # Use phone camera as webcam
-droidcam
+chaotic-aur/droidcam
 
 # Alternative chromium based browser
-helium-browser-bin
+chaotic-aur/helium-browser-bin
 
 
