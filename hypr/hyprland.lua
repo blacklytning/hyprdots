@@ -60,6 +60,7 @@ hl.config({
 
 hl.layer_rule({ match = { namespace = "waybar" }, blur = true })
 hl.layer_rule({ match = { namespace = "launcher" }, blur = true })
+hl.layer_rule({ match = { namespace = "swayosd" }, blur = true, ignore_alpha = 0.3 })
 hl.layer_rule({ match = { namespace = "notifications" }, blur = true, ignore_alpha = 0.5 })
 
 hl.curve("easeOutQuint", { type = "bezier", points = { { 0.23, 1 }, { 0.32, 1 } } })

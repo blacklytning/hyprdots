@@ -1,0 +1,9 @@
+[server]
+
+## The maximum volume that can be reached in %
+max_volume = 175 
+
+## show percentage on the right of the OSD
+show_percentage = true
+
+[client]
