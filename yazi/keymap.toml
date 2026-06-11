@@ -1,0 +1,17 @@
+[[input.prepend_keymap]]
+on   = "<Esc>"
+run  = "close"
+desc = "Cancel input"
+
+[[mgr.prepend_keymap]]
+on  = "<C-n>"
+run = "shell -- dragon-drop -x -i -T %h"
+
+[[mgr.prepend_keymap]]
+on  = "y"
+run = [ 'shell -- for path in %s; do echo "file://$path"; done | wl-copy -t text/uri-list', "yank" ]
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "l" ]
+run  = "plugin open-git-remote"
+desc = "open git remote url"

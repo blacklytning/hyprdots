@@ -159,3 +159,8 @@ Add ```timeout 0``` to ```/boot/loader/loader.conf```
 - Disable logs on boot splash
 
 Add ```quiet``` as kernel parameter to particular kernel in ```/boot/loader/entries/linux-zen.conf```
+
+- Add yazi open git remote plugin
+```
+ ya pkg add larry-oates/open-git-remote
+```
