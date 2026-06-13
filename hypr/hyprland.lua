@@ -159,6 +159,10 @@ hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("swayosd-client --brightness rais
     { locked = true, repeating = true })
 hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("swayosd-client --brightness lower"),
     { locked = true, repeating = true })
+hl.bind("ALT + XF86AudioRaiseVolume", hl.dsp.exec_cmd("swayosd-client --brightness raise"),
+    { locked = true, repeating = true })
+hl.bind("ALT + XF86AudioLowerVolume", hl.dsp.exec_cmd("swayosd-client --brightness lower"),
+    { locked = true, repeating = true })
 
 hl.bind(mainMod .. " + l", hl.dsp.layout("move +col"))
 hl.bind(mainMod .. " + h", hl.dsp.layout("move -col"))
