@@ -50,7 +50,9 @@ wifi/bluetooth management without leaving the terminal.
 
 ---
 
-![zen browser](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_zen.png)
+![zen browser github](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_zen_github.png)
+
+![transparent zen](https://github.com/blacklytning/hyprdots/blob/master/screenshots/ss_transparent_zen.png)
 
 distraction-free. actual content.
 
