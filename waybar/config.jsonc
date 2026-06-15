@@ -12,7 +12,7 @@
     "tooltip-format": "<big>  Calender</big>\n<tt><small>{calendar}</small></tt>"
   },
   "network#speed": {
-  "interval": 2,
+  "interval": 1,
   "format": "{ifname}",
   "format-wifi": "<span foreground='#c8a5ff'>   {bandwidthDownBytes}     {bandwidthUpBytes} </span>",
   "format-ethernet": "<span foreground='#c8a5ff'>   {bandwidthDownBytes}     {bandwidthUpBytes} </span>",
