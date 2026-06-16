@@ -46,8 +46,8 @@ hl.config({
         rounding_power = 3,
 
         blur = {
-            size = 6,
-            passes = 2,
+            size = 5,
+            passes = 3,
             contrast = 1.2,
             special = true,
         },
@@ -102,6 +102,8 @@ hl.config({
             natural_scroll = true,
             scroll_factor = 0.16,
         },
+
+        numlock_by_default = true,
     },
 })
 
@@ -163,7 +165,6 @@ hl.bind("ALT + XF86AudioRaiseVolume", hl.dsp.exec_cmd("swayosd-client --brightne
     { locked = true, repeating = true })
 hl.bind("ALT + XF86AudioLowerVolume", hl.dsp.exec_cmd("swayosd-client --brightness lower"),
     { locked = true, repeating = true })
-
 hl.bind(mainMod .. " + l", hl.dsp.layout("move +col"))
 hl.bind(mainMod .. " + h", hl.dsp.layout("move -col"))
 hl.bind(mainMod .. " + comma", hl.dsp.layout("swapcol l"))
