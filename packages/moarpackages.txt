@@ -62,3 +62,6 @@ genact
 
 # df -h alternative
 extra/duf
+
+# Terminal Music Player
+extra/kew
