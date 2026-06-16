@@ -20,10 +20,6 @@ extra/telegram-desktop
 multilib/steam
 chaotic-aur/heroic-games-launcher-bin
 
-# Browse databases
-aur/sqlite-web
-aur/pgweb-bin
-
 # See which files/folders are taking up space
 extra/ncdu
 
