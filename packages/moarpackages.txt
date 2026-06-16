@@ -48,9 +48,6 @@ chaotic-aur/zen-browser-bin
 # WhatsApp emojis
 aur/ttf-whatsapp-emoji
 
-# Mount removable media
-aur/bashmount
-
 # Virtual environment
 aur/miniconda3
 

@@ -144,3 +144,26 @@ Add ```quiet``` as kernel parameter to particular kernel in ```/boot/loader/entr
 ```
  ya pkg add larry-oates/open-git-remote
 ```
+
+- Manage removable media (udisks2 installed)
+
+List media
+
+```
+lsblk
+```
+
+Mount media
+```
+udisksctl mount -b /dev/sdb1
+```
+
+Ummount media
+```
+udisksctl ummount -b /dev/sdb1
+```
+
+Eject media
+```
+udisksctl power-off -b /dev/sdb1
+```
