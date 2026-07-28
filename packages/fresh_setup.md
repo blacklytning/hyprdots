@@ -167,3 +167,8 @@ Eject media
 ```
 udisksctl power-off -b /dev/sdb1
 ```
+
+- Download YouTube video as song
+```
+yt-dlp -f bestaudio -x --audio-format mp3 --audio-quality 0 --embed-thumbnail --embed-metadata "URL"
+```

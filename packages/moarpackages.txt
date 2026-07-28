@@ -58,3 +58,6 @@ extra/duf
 
 # Terminal Music Player
 extra/kew
+
+# YouTube Downloader
+extra/yt-dlp
