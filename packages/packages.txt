@@ -12,7 +12,6 @@ bluetui
 openssh
 dunst
 mpv
-bat
 ttf-liberation
 ttf-nunito
 ttf-roboto
