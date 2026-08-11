@@ -6,7 +6,6 @@ wget
 yazi
 brightnessctl
 waybar
-libreoffice-fresh
 impala
 bluetui
 openssh
@@ -36,7 +35,6 @@ ripgrep
 nvidia-open-dkms
 nvidia-utils
 egl-wayland
-linux-lts-headers
 linux-zen-headers
 fzf
 hyprpicker
