@@ -1,5 +1,19 @@
-[manager]
+[mgr]
 sort_by = "mtime"
 sort_dir_first = true
 sort_reverse = true
 linemode = "size"
+
+[preview]
+image_quality = 90
+image_filter = "lanczos3"
+
+[opener]
+play = [
+    { run = 'mpv --force-window=yes -- %s', orphan = true, for = "unix" }
+]
+
+[open]
+prepend_rules = [
+    { mime = "audio/*", use = "play" },
+]
