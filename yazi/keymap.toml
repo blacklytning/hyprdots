@@ -8,8 +8,20 @@ on  = "<C-n>"
 run = "shell -- dragon-drop -x -i -T %h"
 
 [[mgr.prepend_keymap]]
-on  = "y"
-run = [ 'shell -- for path in %s; do echo "file://$path"; done | wl-copy -t text/uri-list', "yank" ]
+on = "y"
+run = [
+    '''shell -- for path in %s; do
+        case "$path" in
+            *.png|*.PNG|*.jpg|*.JPG|*.jpeg|*.JPEG|*.webp|*.WEBP)
+                wl-copy --type image/png < "$path"
+                ;;
+            *)
+                echo "file://$path" | wl-copy -t text/uri-list
+                ;;
+        esac
+    done''',
+    "yank"
+]
 
 [[mgr.prepend_keymap]]
 on   = [ "g", "l" ]
