@@ -23,7 +23,6 @@ local terminal = "kitty"
 hl.on("hyprland.start", function()
     hl.exec_cmd("swayosd-server")
     hl.exec_cmd("~/.config/scripts/bat-notify.sh")
-    hl.exec_cmd("sleep 1 && ~/.config/scripts/random-wall.sh")
 end)
 
 hl.config({
