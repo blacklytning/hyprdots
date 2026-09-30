@@ -21,8 +21,4 @@ WALLPAPER=$(find "$WALLPAPER_DIR" -type f \
 
 echo "$WALLPAPER" > "$LAST_USED"
 
-ln -sf "$WALLPAPER" "$CURRENT_WALL"
-
-hyprctl hyprpaper unload all
-hyprctl hyprpaper preload "$CURRENT_WALL"
-hyprctl hyprpaper wallpaper "$MONITOR,$CURRENT_WALL"
+hyprctl hyprpaper wallpaper "$MONITOR,$WALLPAPER"
