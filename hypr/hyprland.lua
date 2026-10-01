@@ -90,6 +90,7 @@ hl.animation({ leaf = "zoomFactor", enabled = true, speed = 7, bezier = "quick" 
 hl.config({
     scrolling = {
         column_width = 0.495,
+        explicit_column_widths = "0.495, 0.985",
     },
 })
 
@@ -129,12 +130,11 @@ hl.bind(mainMod .. " + C", hl.dsp.window.close())
 hl.bind(mainMod .. " + SHIFT + M",
     hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd([[kitty -e fish -c "yazi; fish"]]))
-hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + space", hl.dsp.exec_cmd("tofi-drun --drun-launch=true"))
 hl.bind("PRINT", hl.dsp.exec_cmd("hyprshot -m region -o ~/screenshots -z"))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("zen-browser"))
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("~/.config/scripts/random-wall.sh"))
-hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
+hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen())
 hl.bind("XF86Launch2", hl.dsp.exec_cmd("hyprlock"))
 
 for i = 1, 10 do
@@ -146,7 +146,6 @@ end
 hl.bind(mainMod .. " + S", hl.dsp.workspace.toggle_special("magic"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
 
-hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 hl.bind(mainMod .. " + SHIFT + mouse:272", hl.dsp.window.resize(), { mouse = true })
 
@@ -164,7 +163,8 @@ hl.bind("ALT + XF86AudioRaiseVolume", hl.dsp.exec_cmd("swayosd-client --brightne
     { locked = true, repeating = true })
 hl.bind("ALT + XF86AudioLowerVolume", hl.dsp.exec_cmd("swayosd-client --brightness lower"),
     { locked = true, repeating = true })
-hl.bind(mainMod .. " + l", hl.dsp.layout("move +col"))
-hl.bind(mainMod .. " + h", hl.dsp.layout("move -col"))
-hl.bind(mainMod .. " + comma", hl.dsp.layout("swapcol l"))
-hl.bind(mainMod .. " + period", hl.dsp.layout("swapcol r"))
+hl.bind(mainMod .. " + L", hl.dsp.layout("focus r"))
+hl.bind(mainMod .. " + H", hl.dsp.layout("focus l"))
+hl.bind(mainMod .. " + SHIFT + L", hl.dsp.layout("swapcol r"))
+hl.bind(mainMod .. " + SHIFT + H", hl.dsp.layout("swapcol l"))
+hl.bind(mainMod .. " + F", hl.dsp.layout("colresize +conf"))
